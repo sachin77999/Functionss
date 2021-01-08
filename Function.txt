@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class Abc
+{
+public static void main(String args[])
+{
+myFunction();
+String catchValueFromFunction=myFunction1();
+int catchFunctionValueInt;
+catchFunctionValueInt=myFunction2();
+catchFunctionValueInt=catchFunctionValueInt*catchFunctionValueInt;
+System.out.println(catchFunctionValueInt);
+}
+static void myFunction()
+{
+System.out.println("Bye Bye 2020.Please do not come again");
+System.out.println("Hello 2021");
+}
+static String myFunction1()
+{
+System.out.println("Bye Bye 2020.Please do not come again");
+System.out.println("Hello 2021");
+return "All Statements are executed";
+}
+static int myFunction2()
+{
+System.out.println("Bye Bye 2020.Please do not come again");
+System.out.println("Hello 2021");
+return 100;
+}
+}
